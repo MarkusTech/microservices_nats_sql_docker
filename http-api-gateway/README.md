@@ -11,4 +11,4 @@ docker-compose up --build
 # LINK
 
 https://www.youtube.com/watch?v=5HlsgPRcm3w&t=598s&ab_channel=AnsontheDeveloper
-1:02
+1:23
