@@ -27,8 +27,10 @@ services:
     ports:
       - "3308:3308"
     environment:
-      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root_password_123
       - MYSQL_DATABASE=nestjs_db
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=root
+      - MYSQL_USER=testuser
+      - MYSQL_PASSWORD=testuser123
       - MYSQL_TCP_PORT=3308
+
+  # mysql -u testuser -p
