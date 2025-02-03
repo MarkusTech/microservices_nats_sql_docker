@@ -1,4 +1,7 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Inject } from '@nestjs/common';
+import { ClientProxy } from '@nestjs/microservices';
 
 @Controller('payments')
-export class PaymentsController {}
+export class PaymentsController {
+  constructor(@Inject('NATS_SERVICE') private natsClient: ClientProxy) {}
+}
