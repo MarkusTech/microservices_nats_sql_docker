@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { PaymentControllerMicroservice } from './payments.controller';
+import { PaymentsMicroserviceController } from './payments.controller';
 
 @Module({
   imports: [],
-  controllers: [PaymentControllerMicroservice],
+  controllers: [PaymentsMicroserviceController],
   providers: [],
 })
 export class PaymentsModule {}
